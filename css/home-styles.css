@@ -1,0 +1,82 @@
+/* -- Hero -- */
+.jumbotron {
+    background-image: url("../images/ibk-home-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #FFF;
+    overflow: hidden;
+    z-index: -100;
+    border-radius: 0;
+}
+
+.jumbotron .container {
+    max-width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 0;
+    margin-right: 200px;
+}
+
+.jumbo-button {
+    border-radius: 500px;
+    max-width: 200px;
+    padding: 10px 30px;
+    background-color: #EAE0CC;
+    color: #000;
+    font-size: 1em;
+    border: none;
+}
+
+.jumbo-button:hover {
+    background-color: #62929E;
+    color: #000;
+}
+
+.jumbotron h1 {
+    text-shadow: 0px 10px 11px #000000;
+    margin-bottom: 20px;
+    font-size: 2.7em;
+}
+
+.jumbo-music {
+    margin-bottom: 0!important;
+    background-image: url("../images/ibk-home-music.jpg");
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 400px) {
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+    
+    .jumbo-button {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 399px) and (min-width: 0px) {
+    .jumbotron h1 {
+        font-size: 1.8em;
+    }
+
+    .jumbo-button {
+        font-size: 0.9em;
+    }
+}
+
+/* -- Carousel -- */
+.carouselFade {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.carouselFade img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
